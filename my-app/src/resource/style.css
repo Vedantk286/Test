@@ -1,0 +1,760 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:  'Work Sans', sans-serif;
+  
+  
+  
+}
+html{
+  font-size: 62.5%;
+  
+}
+body{
+  background-color: #eee1d1;
+  overflow-x: hidden;
+}
+.container {
+  
+  width: 100%;
+  height: 72rem;
+  background-color: #2a625a;
+  
+}
+.title{
+  width: 100%;
+  height: 10rem;
+  
+}
+.title ul{
+  display: block;  
+  list-style: none;
+  display: inline;
+}
+.title ul li button{
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.title li{
+  float: left;
+  display: block;
+  font-size: 1.5rem;
+  margin-left: 5rem;
+  margin-top:3rem;
+}
+.title a{
+  text-decoration: none;  
+  color: white;
+}
+.title  h1{
+  color: white;
+  font-size: 2rem;
+}
+.title h1 span{
+  color: #e8522a;
+}
+.title h1{
+  position: absolute;
+  margin-top: 2.7rem;
+  
+  left: 47%;  
+}
+.btn{
+  position: absolute;
+  right: 1%;
+  margin-top: 2.3rem;
+  
+}
+.btn button{
+  width: 12rem;
+  height: 4rem;
+  font-size: 1.2rem;
+  border-radius: 1.6rem .6rem 1.6rem .6rem;
+  background-color: transparent;
+  color: white;
+  border: white solid 0.2px;
+  cursor: pointer;
+  transition:0.5s;
+}
+.btn button:hover{
+  background-color: #e8522a;
+}
+.lines {
+  position: absolute;
+  right: -25%;
+  
+}
+.lines img{
+  margin-right: -16rem;
+  width: 65%;
+  height: 43rem;
+}
+.phrase{
+  width: 70rem;
+  height:45rem;
+  position: absolute;
+  margin-top: 10rem;
+  /* top:17%; */
+  left: 4%;
+}
+.phrase h1{
+  font-size: 8.6rem;
+  width: 70rem;
+  left: 2%;
+  z-index: 1;
+  background-color: transparent;
+  font-weight:500;
+}
+.phrase h1 span{
+  margin-left: 8.5rem;
+  color: white;
+}
+ .rotr span{
+  font-family: 'Satisfy', cursive;
+  
+}
+ .rotr{
+
+  
+  font-family: 'Satisfy', cursive;
+  position: absolute;
+  /* top: 37%; */
+  margin-top: 23rem;
+ 
+  left: 5%;
+  width: 10rem;
+  height: 10rem;
+  font-size: 5.5rem;
+  display: block;
+  transform: rotate(-17deg) ;
+  color: #e8522a;
+}
+.fish img{
+  position: absolute;
+  right: -27%;
+  /* top: 8%; */
+  margin-top: .7rem;
+  width: 90%;
+  height: 75rem;
+  
+}
+.tagl{
+  width: 50rem;
+  height: 15rem;
+  position: absolute;
+  margin-top: 35rem;
+  /* top: 57%; */
+  left: 6%;
+}
+.tagl p{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.6;
+}
+.btn1{
+  position: absolute;
+  /* top: 73%; */
+  margin-top: 45rem;
+  left: 6%;
+  z-index: 1;
+}
+.btn1 button{
+  font-size: 1.5rem;
+  width: 16rem;
+  height: 3.6rem;
+  border-radius: 1.6rem .6rem 1.6rem .6rem;
+  background-color: #e8522a;
+  color: white;
+  border: #e8522a solid 0.2px;
+  cursor: pointer;
+  transition:0.5s;
+  overflow: hidden;
+}
+.btn1 button:hover{
+  background-color: #ee8467;
+}
+.leaf {
+ 
+ position: absolute;
+ width: 80rem;
+ height: 70rem;
+ /* top: 73%; */
+ margin-top: 37rem;
+ left: 10%;
+}
+.leaf img{
+  height: 36rem;
+  width: 36rem;
+  transform: rotate(30deg);
+}
+.text{
+  
+  position: absolute;
+  width: 100%;
+  height: 50rem;
+  /* top: 150%; */
+  margin-top: 3rem;  
+  display: flex;
+  justify-content: center;
+}
+.circle{
+  width: 10rem;
+  height: 10rem;
+  background-color: #f37761;
+  border-radius: 18rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 5rem;
+  margin-right: 95rem;
+  margin-top: 0;
+}
+.circle img{
+  width: 6rem;
+  height: 6rem;  
+  
+}
+.text h1{
+  
+  margin-left: 10rem;
+  margin-right: 10rem;
+  position: absolute;
+  text-align: left;
+  
+  
+  font-weight:500;
+  margin-top: 6rem;
+  color: #16332d;
+  font-size: 4rem;
+}
+.text h1 span{
+  font-weight:500;
+  color: #e8522a;
+}
+.sushi {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 45rem;
+  padding: 0%;
+  margin-bottom: 12rem;
+}
+.sushi h1{
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  font-family: 'Work Sans', sans-serif;
+  color: #16332d;
+}
+.sushi .curve{
+  position: absolute;
+  
+  left: 27%;
+  width: 40rem; 
+  height: 1rem;  
+  border: solid .5rem #e8522a;
+  border-color: #e8522a transparent transparent transparent;
+  border-radius: 200%/10rem 10rem 0 0;
+}
+.plate {
+  margin-left: 5%;
+  width: 90%;  
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+.plate .dish{
+  overflow: hidden;
+  border-radius: 2rem;
+  margin: 2rem;
+  
+  width: 29rem;
+  height: 27rem;
+  position: relative;
+}
+.dish img{
+  width: 100%;
+  height: 100%;
+}
+.dish .red{
+  display: block;
+  background-color: #e8522a;
+  width: 100%;
+  height: 9rem;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 1s;
+  
+}
+.dish .red h3{
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: white;
+  /* margin-top: 13px; */
+  position: absolute;
+  /* top: 18%; */
+  margin-top: 1rem;
+  opacity: 0.8;
+  left: 23%;
+}
+.dish .red p{
+  color: white;
+  font-size:1.5rem;
+  font-weight: 200;
+  /* margin-top: 6px; */
+  position: absolute;
+  /* top: 50%; */
+  margin-top: 5rem;
+  left: 35%;
+  opacity: 0.8;
+}
+.red:hover{
+  height: 100%;
+  
+}
+
+
+
+.lcus {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  position: absolute;
+  /* top: 330%; */
+  margin-top: 40rem;
+  overflow: hidden;
+  padding-bottom: 10rem;
+}
+.lcus h1{
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  font-family: 'Work Sans', sans-serif;
+  color: #16332d;
+}
+.lcus .curve2{
+  
+  position: absolute;
+  /* top: 50%; */
+  margin-top: 14rem;
+  left: 18%;
+   
+  width: 40rem; 
+  height: 1rem;  
+  border: solid .5rem #e8522a;
+  border-color: #e8522a transparent transparent transparent;
+  border-radius: 200%/10rem 10rem 0 0;
+}
+.select{
+  margin-top: 30rem;
+  position: absolute;
+  left: 5%;
+  width: 90%;
+  height: 60rem;
+  
+  overflow: hidden;
+}
+.select .main{
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  
+  /* top: 0%; */
+  margin-top: 0.5rem;
+  left: 3%;
+  
+}
+.select .options{
+  width: 45%;
+  height: 80%;
+  
+  position: absolute;
+  /* top: 10%; */
+  right:3%;
+  margin-top: 1rem;
+  
+}
+.options .odet{
+  background-color: #d6c7b5c0;
+  width: 90%;
+  height: 25%;
+  border-radius: 18rem 0 0 18rem;
+  margin-left: 4rem; 
+  margin-bottom: 1.2rem;
+  overflow: hidden;
+  position: relative;
+  color: #1b342e;
+  transition: 0.7s;
+  cursor: pointer;
+}
+.options .odet .cirs{
+  
+  margin: 1rem;
+  margin-left: 1.5rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 180%;
+  background-color: #e8522a;
+  overflow: hidden;
+}
+.odet .cirs img{
+  width: 100%;
+  height: 100%;
+  
+}
+.odet h1{
+  /* top: 10%; */
+  margin-top: -11rem;
+  position: absolute;
+  font-size: 2.5rem;
+  
+  left: 29%;
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: -.1rem;
+}
+.odet p{
+  position: absolute;
+  /* top: 50%; */
+  margin-top: -7rem;
+  text-align: left;
+  font-size: 1.5rem;
+  left: 29%;
+  
+}
+.odet button{
+  width: 10rem;
+  height: 3rem;
+  position: absolute;
+  margin-top: -11rem;
+  right: 3%;
+  border-radius: 1.2rem .6rem 1.2rem .6rem;
+  border: none;
+  background-color: #e8522a;
+  color: white;
+  cursor: pointer;
+}
+.odet:hover{
+  color: white;
+  background-color: #e8522a;   
+}
+.odet:hover button{
+  background-color: white;
+  color: #e8522a;   
+}
+.main {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.main img{
+  width: 80%;
+  height: 80%;
+  border-radius: 180%;
+
+}
+.main h1{
+  position: absolute;
+  /* top: 80%; */
+  margin-top: 40rem;
+  letter-spacing: -.1rem;
+}
+.main p{
+  text-align: center;
+  position: absolute;
+  margin-top: 43rem;
+}
+
+.choose{
+  margin-top: 90rem;
+  width: 70%;
+  display: flex;
+  height: 15rem;
+  margin-left: 15%;    
+  justify-content: center;
+  
+}
+.choose h1{
+  font-size: 5rem;
+  color: #16332d;
+  overflow: hidden;
+}
+.third .curve{
+  position: absolute;
+  /* top: 484%; */
+  margin-top: 101rem;
+  
+  margin-left: 50rem;
+  width: 40rem; 
+  height: 1rem;  
+  border: solid .5rem #e8522a;
+  border-color: #e8522a transparent transparent transparent;
+  border-radius: 200%/10rem 10rem 0 0;
+}
+.sush{
+  width: 100%;
+  
+  height: 54rem;
+  margin-top: 3rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.sush .price{
+  width: 25%;
+  border-radius: 1rem;
+  height: 100%;
+  display: inline-block;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.sush .price:hover{
+  background-color: rgba(255, 255, 255, 0.39);
+  box-shadow:.2rem .2rem rgba(173, 173, 173, 0.459)   ;
+}
+.sush .price img{
+  width: 35rem;
+  height: 35rem;  
+  margin-left: 2.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.price h1{
+  font-size: 3.2rem;
+  letter-spacing: -.1rem;
+  text-align: left;
+  margin-left: 6%;
+  margin-bottom: 1rem;
+  color: #1b342e;
+}
+.price p{
+  margin-left: 6%;
+  text-align: left;
+  font-size: 1.3rem;
+}
+.price button{
+  margin: 1%;
+  margin-left: 6%;
+  background-color: #e8522a;
+  color: white;
+  height: 3rem;
+  width: 14rem;
+  border: none;
+  border-radius: 1.1rem .3rem 1.1rem .3rem;
+  font-weight: 300;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.price button:hover{
+  background-color: #f37761;  
+}
+.price #p1{
+  transform: rotate(-5deg);
+}
+.price #p2{
+  transform: rotate(5deg);
+}
+.price #p3{
+  transform: rotate(-5deg);
+}
+.slog{
+  margin-top: 10rem;
+  
+}
+.slog h1{
+  font-size: 5rem;
+  font-family:  'Work Sans', sans-serif;
+  color: #1b342e;
+  text-align: center;
+  letter-spacing: -.1rem;
+}
+.fourth .curve{
+  position: absolute;
+  margin-top: 21rem;
+  /* left: 42%; */
+  margin-left: 45rem;
+  width: 40rem; 
+  height: 1rem;  
+  border: solid .5rem #e8522a;
+  border-color: #e8522a transparent transparent transparent;
+  border-radius: 200%/10rem 10rem 0 0;
+}
+.view{
+  margin-top: 5rem;
+  
+  width: 75%;
+  height: 50rem;
+  margin-left: 12.5%;
+}
+.view .prof{
+  width: 100%;
+  height: 25%;
+  
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prof .story{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 180%;
+  
+  margin: 1.5%;
+  cursor: pointer;
+  background-color: #16332d;
+  transition: 0.5s;
+}
+.prof .story:hover{
+  width: 6rem;
+  height: 6rem;
+}
+.view .mess{
+  width: 70%;
+  height: 60%;
+  margin-top: 4%;
+  
+  margin-left: 15%;
+  background-color: #215750;
+  border-radius: 5rem 5rem 5rem 0rem;
+}
+.footer{
+  width: 100%;
+  height: 50rem;
+  
+  margin-top: -1rem;
+  background-color: #215750;
+  
+}
+.last{
+  height: 70rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.fphrase h1{
+  position: absolute;
+  font-family:  'Work Sans', sans-serif;
+  margin-top: 17%;
+  color: white;
+  font-size: 6rem;
+  left: 6%;
+}
+.fphrase h1 span{
+  margin-left: 9rem;
+}
+.frotr{
+  position: absolute;
+  margin-top: 22%;
+  left: 8%;
+  transform: rotate(-17deg) ;
+  
+}
+.frotr span{
+  font-family:  'Satisfy', cursive;
+  font-size: 4.5rem;
+  color:#e8522a;
+  
+}
+.last hr{
+  width: 88%;  
+  position: absolute;
+  opacity: 0.6;
+  top: 65%;
+  left: 6%;
+}
+
+
+
+
+
+.btn9{
+  background-color: transparent;
+  position: absolute;
+  /* top: 43%; */
+  margin-top:30rem;
+  right: 6%;
+  z-index: 1;
+  height: 5rem;
+}
+.btn9 button{
+  width: 17rem;
+  height: 3.6rem;
+  border-radius: 1.6rem .6rem 1.6rem .6rem;
+  background-color: #e8522a;
+  color: white;
+  border: #e8522a solid 0.2px;
+  cursor: pointer;
+  transition:0.5s;
+}
+.btn9 button:hover{
+  background-color: #ee8467;
+}
+
+
+@media only screen and (max-width: 1200px){
+  html{
+    font-size: 60%;
+  }
+} 
+@media only screen and (max-width: 1100px){
+  html{
+    font-size: 58%;
+  }
+} 
+@media only screen and (max-width: 1000px){
+  html{
+    font-size: 50%;
+  }
+} 
+@media only screen and (max-width: 900px){
+  html{
+    font-size: 45%;
+  }
+} 
+
+@media only screen and (max-width:800px){
+  html{
+    font-size: 40%;
+  }
+}
+@media only screen and (max-width:700px){
+  html{
+    font-size: 35%;
+  }
+}
+@media only screen and (max-width:611px){
+  html{
+    font-size: 30%;
+  }
+}
+@media only screen and (max-width:530px){
+  html{
+    font-size: 25%;
+  }
+}
+@media only screen and (max-width:450px){
+  html{
+    font-size: 20%;
+  }
+}
+@media only screen and (max-width:400px){
+  html{
+    font-size: 16%;
+  }
+  nav{
+    
+  }
+}
